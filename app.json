@@ -13,7 +13,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#F8A5C2"
+      "backgroundColor": "#dfa5f8"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -35,7 +35,7 @@
       "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
     },
     "androidStatusBar": {
-      "backgroundColor": "#fbfcfe"
+      "backgroundColor": "#4169E1"
     },
     "hooks": {
       "postPublish": [
@@ -43,7 +43,8 @@
           "file": "sentry-expo/upload-sourcemaps",
           "config": {
             "organization": "evan-conrad",
-            "project": "quirk"
+            "project": "quirk(
+a strange thing that happens by chance)"
           }
         }
       ]
